@@ -1,11 +1,13 @@
 package org.sample
 
 class Util implements Serializable {
+    def script
 
-    Util() {
+    Util(script) {
+        this.script = script
     }
 
     def speak() {
-        print("gg")
+        script.println("heelo")
     }
 }
