@@ -1,6 +1,6 @@
 package org.sample
 
-class Util {
+class Util implements Serializable {
 
     Util() {
     }
